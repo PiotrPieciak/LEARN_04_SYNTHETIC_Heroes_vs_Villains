@@ -22,21 +22,26 @@ Rules for words definition and their distribution is described in notebook. Such
 * The generated dataset is analyzed to identify patterns in word usage across different character types.
 * Various word count limits are tested to see how restricting the number of words affects classification score.
 
+
 2. Feature Engineering and TF-IDF
 * The dataset is processed using TF-IDF (Term Frequency-Inverse Document Frequency) to extract meaningful features. 
 * Different values of the max_features parameter are tested to optimize classification performance.
+
 
 3. Classification Models
 * The main classification task is to distinguish between heroes, villains and neutral characters. 
 * Random Forest is used as basic classifier with pipeline and GridSearch
 
+
 4. Word Cloud Visualization
 * A word cloud is generated to visually represent the most common words used by each character type.
+
 
 5. Analysis & Findings
 * Multiple tests are conducted to find the optimal upper and lower treshold for more robust classification.
 * The impact of different TF-IDF settings is analyzed.
 * Two detailed summaries present key insights and conclusions from the experiments.
+
 
 ### Why This Project Matters
 
