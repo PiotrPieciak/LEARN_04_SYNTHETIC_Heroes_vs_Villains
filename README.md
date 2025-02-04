@@ -18,33 +18,25 @@ Rules for words definition and their distribution is described in notebook. Such
 
 ### Part 2 Machine learning project
 
-* Exploratory Data Analysis (EDA)
+1. Exploratory Data Analysis (EDA)
+* The generated dataset is analyzed to identify patterns in word usage across different character types.
+* Various word count limits are tested to see how restricting the number of words affects classification score.
 
-The generated dataset is analyzed to identify patterns in word usage across different character types.
+2. Feature Engineering and TF-IDF
+* The dataset is processed using TF-IDF (Term Frequency-Inverse Document Frequency) to extract meaningful features. 
+* Different values of the max_features parameter are tested to optimize classification performance.
 
-Various word count limits are tested to see how restricting the number of words affects classification score.
+3. Classification Models
+* The main classification task is to distinguish between heroes, villains and neutral characters. 
+* Random Forest is used as basic classifier with pipeline and GridSearch
 
-* Feature Engineering and TF-IDF
+4. Word Cloud Visualization
+* A word cloud is generated to visually represent the most common words used by each character type.
 
-The dataset is processed using TF-IDF (Term Frequency-Inverse Document Frequency) to extract meaningful features.
-  
-Different values of the max_features parameter are tested to optimize classification performance.
-
-* Classification Models
-
-  The main classification task is to distinguishing between heroes, villains and neutral characters. 
-
-  Various classification models are tested to determine the most effective approach.
-
-* Word Cloud Visualization
-	A word cloud is generated to visually represent the most common words used by each character type.
-
-* Analysis & Findings
-        Multiple tests are conducted to find the optimal upper and lower word count limits for more robust classification.
-
-  The impact of different TF-IDF settings is analyzed.
-
-  Two detailed summaries present key insights and conclusions from the experiments.
+5. Analysis & Findings
+* Multiple tests are conducted to find the optimal upper and lower treshold for more robust classification.
+* The impact of different TF-IDF settings is analyzed.
+* Two detailed summaries present key insights and conclusions from the experiments.
 
 ### Why This Project Matters
 
@@ -91,20 +83,12 @@ Click on the **Code** button and select **Download ZIP** or clone the repository
 **Note:**  The picture (Villain 2.png) must be in the folder /img which must be located in the same directory as notebook, to work correctly.
 
 ## Dependencies
-matplotlib==3.9.2
-
-numpy==1.26.4
-
-pandas==2.2.2
-
-scikit-learn==1.5.1
-
-seaborn==0.13.2
-
-faker==34.0.2
-
-nltk==3.9.1
-
-pillow==11.0.0
-
-wordcloud==1.9.3
+* matplotlib==3.9.2
+* numpy==1.26.4
+* pandas==2.2.2
+* scikit-learn==1.5.1
+* seaborn==0.13.2
+* faker==34.0.2
+* nltk==3.9.1
+* pillow==11.0.0
+* wordcloud==1.9.3
