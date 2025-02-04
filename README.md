@@ -38,6 +38,8 @@ Rules for words definition and their distribution is described in notebook. Such
 	* The impact of different TF-IDF settings is analyzed.
 	* Two detailed summaries present key insights and conclusions from the experiments.
 
+This project is  **my own idea**, developed from scratch without **external inspiration** or pre-existing implementations.
+
 ### Why This Project Matters
 
 This project explores how language influences perception and how simple word choices can define a character as heroic, villainous, or neutral. By generating synthetic data and applying machine learning techniques, it demonstrates a creative approach to text classification in the absence of real-world datasets.
