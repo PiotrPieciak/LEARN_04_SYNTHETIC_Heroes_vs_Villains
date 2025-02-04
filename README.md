@@ -94,3 +94,17 @@ Click on the **Code** button and select **Download ZIP** or clone the repository
 * nltk==3.9.1
 * pillow==11.0.0
 * wordcloud==1.9.3
+
+## License
+This project, is my original creation and is protected under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) license.
+
+You are free to share this work (copy and redistribute it in any medium or format) under the following conditions:
+
+Attribution – You must give appropriate credit by linking to this repository.
+
+NonCommercial – You may not use the material for commercial purposes.
+
+NoDerivatives – If you remix, transform, or build upon the material, you may not distribute the modified work.
+
+For full details, refer to the official [CC BY-NC-ND 4.0 License](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en).
+
